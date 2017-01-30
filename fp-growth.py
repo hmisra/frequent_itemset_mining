@@ -1,11 +1,11 @@
-mport operator
+import operator
 
 
 
 class Node:
-    def __init__(self, nameValue, numOccur, parentNode):
-            self.name = nameValue
-            self.value = numOccur
+    def __init__(self, name, value, parentNode):
+            self.name = name
+            self.value = value
             self.parent = parentNode
             self.sibling = None
             self.children = {}
